@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A4963EE1BD37E6900626D79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4963ED1BD37E6900626D79 /* main.m */; };
+		3A4963F11BD37E6900626D79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4963F01BD37E6900626D79 /* AppDelegate.m */; };
+		3A4963F91BD37E6900626D79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A4963F81BD37E6900626D79 /* Assets.xcassets */; };
+		3A4963FC1BD37E6900626D79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A4963FA1BD37E6900626D79 /* LaunchScreen.storyboard */; };
+		3A49641E1BD383E600626D79 /* GZDDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A49641D1BD383E600626D79 /* GZDDiscoverViewController.m */; settings = {ASSET_TAGS = (); }; };
+		3A4964211BD383F100626D79 /* GZDHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4964201BD383F100626D79 /* GZDHomeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		3A4964271BD3840E00626D79 /* GZDMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4964261BD3840E00626D79 /* GZDMeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		3A49642A1BD3841C00626D79 /* GZDMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4964291BD3841C00626D79 /* GZDMessageViewController.m */; settings = {ASSET_TAGS = (); }; };
+		3A49642D1BD389C100626D79 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A49642C1BD389C100626D79 /* UIBarButtonItem+Extension.m */; settings = {ASSET_TAGS = (); }; };
+		3A4964301BD390A100626D79 /* UITabBarItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A49642F1BD390A100626D79 /* UITabBarItem+Extension.m */; settings = {ASSET_TAGS = (); }; };
+		3A4964341BD39F7C00626D79 /* GZDTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4964331BD39F7C00626D79 /* GZDTwoViewController.m */; settings = {ASSET_TAGS = (); }; };
+		3A4964371BD39FEE00626D79 /* GZDThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4964361BD39FEE00626D79 /* GZDThreeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		3A49643A1BD3BBC600626D79 /* GZDNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4964391BD3BBC600626D79 /* GZDNavViewController.m */; settings = {ASSET_TAGS = (); }; };
+		3A49643D1BD3C41B00626D79 /* GZDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A49643C1BD3C41B00626D79 /* GZDTabBarController.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A4963E91BD37E6900626D79 /* GZDSina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GZDSina.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A4963ED1BD37E6900626D79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A4963EF1BD37E6900626D79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A4963F01BD37E6900626D79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A4963F81BD37E6900626D79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A4963FB1BD37E6900626D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A4963FD1BD37E6900626D79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A4964031BD37E8700626D79 /* GZDSina-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GZDSina-Prefix.pch"; sourceTree = "<group>"; };
+		3A4964041BD37F7D00626D79 /* GZDSina-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GZDSina-Header.h"; sourceTree = "<group>"; };
+		3A49641C1BD383E600626D79 /* GZDDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZDDiscoverViewController.h; sourceTree = "<group>"; };
+		3A49641D1BD383E600626D79 /* GZDDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZDDiscoverViewController.m; sourceTree = "<group>"; };
+		3A49641F1BD383F100626D79 /* GZDHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZDHomeViewController.h; sourceTree = "<group>"; };
+		3A4964201BD383F100626D79 /* GZDHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZDHomeViewController.m; sourceTree = "<group>"; };
+		3A4964251BD3840E00626D79 /* GZDMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZDMeViewController.h; sourceTree = "<group>"; };
+		3A4964261BD3840E00626D79 /* GZDMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZDMeViewController.m; sourceTree = "<group>"; };
+		3A4964281BD3841C00626D79 /* GZDMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZDMessageViewController.h; sourceTree = "<group>"; };
+		3A4964291BD3841C00626D79 /* GZDMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZDMessageViewController.m; sourceTree = "<group>"; };
+		3A49642B1BD389C100626D79 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		3A49642C1BD389C100626D79 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		3A49642E1BD390A100626D79 /* UITabBarItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+Extension.h"; sourceTree = "<group>"; };
+		3A49642F1BD390A100626D79 /* UITabBarItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+Extension.m"; sourceTree = "<group>"; };
+		3A4964321BD39F7C00626D79 /* GZDTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZDTwoViewController.h; sourceTree = "<group>"; };
+		3A4964331BD39F7C00626D79 /* GZDTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZDTwoViewController.m; sourceTree = "<group>"; };
+		3A4964351BD39FEE00626D79 /* GZDThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZDThreeViewController.h; sourceTree = "<group>"; };
+		3A4964361BD39FEE00626D79 /* GZDThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZDThreeViewController.m; sourceTree = "<group>"; };
+		3A4964381BD3BBC600626D79 /* GZDNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZDNavViewController.h; sourceTree = "<group>"; };
+		3A4964391BD3BBC600626D79 /* GZDNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZDNavViewController.m; sourceTree = "<group>"; };
+		3A49643B1BD3C41B00626D79 /* GZDTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZDTabBarController.h; sourceTree = "<group>"; };
+		3A49643C1BD3C41B00626D79 /* GZDTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZDTabBarController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A4963E61BD37E6900626D79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A4963E01BD37E6900626D79 = {
+			isa = PBXGroup;
+			children = (
+				3A4963EB1BD37E6900626D79 /* GZDSina */,
+				3A4963EA1BD37E6900626D79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A4963EA1BD37E6900626D79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A4963E91BD37E6900626D79 /* GZDSina.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A4963EB1BD37E6900626D79 /* GZDSina */ = {
+			isa = PBXGroup;
+			children = (
+				3A4964051BD383BF00626D79 /* Classes */,
+				3A4963EF1BD37E6900626D79 /* AppDelegate.h */,
+				3A4963F01BD37E6900626D79 /* AppDelegate.m */,
+				3A4963F81BD37E6900626D79 /* Assets.xcassets */,
+				3A4963FA1BD37E6900626D79 /* LaunchScreen.storyboard */,
+				3A4963FD1BD37E6900626D79 /* Info.plist */,
+				3A4963EC1BD37E6900626D79 /* Supporting Files */,
+			);
+			path = GZDSina;
+			sourceTree = "<group>";
+		};
+		3A4963EC1BD37E6900626D79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A4964041BD37F7D00626D79 /* GZDSina-Header.h */,
+				3A4964031BD37E8700626D79 /* GZDSina-Prefix.pch */,
+				3A4963ED1BD37E6900626D79 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A4964051BD383BF00626D79 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3A4964311BD39F6B00626D79 /* temp */,
+				3A4964061BD383BF00626D79 /* Discover */,
+				3A49640A1BD383BF00626D79 /* Home */,
+				3A49640E1BD383BF00626D79 /* Main */,
+				3A4964121BD383BF00626D79 /* Me */,
+				3A4964161BD383BF00626D79 /* Message */,
+				3A49641A1BD383BF00626D79 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3A4964061BD383BF00626D79 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				3A4964071BD383BF00626D79 /* Controller */,
+				3A4964081BD383BF00626D79 /* Model */,
+				3A4964091BD383BF00626D79 /* View */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		3A4964071BD383BF00626D79 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3A49641C1BD383E600626D79 /* GZDDiscoverViewController.h */,
+				3A49641D1BD383E600626D79 /* GZDDiscoverViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3A4964081BD383BF00626D79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A4964091BD383BF00626D79 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3A49640A1BD383BF00626D79 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3A49640B1BD383BF00626D79 /* Controller */,
+				3A49640C1BD383BF00626D79 /* Model */,
+				3A49640D1BD383BF00626D79 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3A49640B1BD383BF00626D79 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3A49641F1BD383F100626D79 /* GZDHomeViewController.h */,
+				3A4964201BD383F100626D79 /* GZDHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3A49640C1BD383BF00626D79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A49640D1BD383BF00626D79 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3A49640E1BD383BF00626D79 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3A49640F1BD383BF00626D79 /* Controller */,
+				3A4964101BD383BF00626D79 /* Model */,
+				3A4964111BD383BF00626D79 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3A49640F1BD383BF00626D79 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3A4964381BD3BBC600626D79 /* GZDNavViewController.h */,
+				3A4964391BD3BBC600626D79 /* GZDNavViewController.m */,
+				3A49643B1BD3C41B00626D79 /* GZDTabBarController.h */,
+				3A49643C1BD3C41B00626D79 /* GZDTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3A4964101BD383BF00626D79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A4964111BD383BF00626D79 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3A4964121BD383BF00626D79 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				3A4964131BD383BF00626D79 /* Controller */,
+				3A4964141BD383BF00626D79 /* Model */,
+				3A4964151BD383BF00626D79 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		3A4964131BD383BF00626D79 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3A4964251BD3840E00626D79 /* GZDMeViewController.h */,
+				3A4964261BD3840E00626D79 /* GZDMeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3A4964141BD383BF00626D79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A4964151BD383BF00626D79 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3A4964161BD383BF00626D79 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				3A4964171BD383BF00626D79 /* Controller */,
+				3A4964181BD383BF00626D79 /* Model */,
+				3A4964191BD383BF00626D79 /* View */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		3A4964171BD383BF00626D79 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3A4964281BD3841C00626D79 /* GZDMessageViewController.h */,
+				3A4964291BD3841C00626D79 /* GZDMessageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3A4964181BD383BF00626D79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A4964191BD383BF00626D79 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3A49641A1BD383BF00626D79 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				3A49641B1BD383BF00626D79 /* Lib */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		3A49641B1BD383BF00626D79 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				3A49642B1BD389C100626D79 /* UIBarButtonItem+Extension.h */,
+				3A49642C1BD389C100626D79 /* UIBarButtonItem+Extension.m */,
+				3A49642E1BD390A100626D79 /* UITabBarItem+Extension.h */,
+				3A49642F1BD390A100626D79 /* UITabBarItem+Extension.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		3A4964311BD39F6B00626D79 /* temp */ = {
+			isa = PBXGroup;
+			children = (
+				3A4964321BD39F7C00626D79 /* GZDTwoViewController.h */,
+				3A4964331BD39F7C00626D79 /* GZDTwoViewController.m */,
+				3A4964351BD39FEE00626D79 /* GZDThreeViewController.h */,
+				3A4964361BD39FEE00626D79 /* GZDThreeViewController.m */,
+			);
+			path = temp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A4963E81BD37E6900626D79 /* GZDSina */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A4964001BD37E6900626D79 /* Build configuration list for PBXNativeTarget "GZDSina" */;
+			buildPhases = (
+				3A4963E51BD37E6900626D79 /* Sources */,
+				3A4963E61BD37E6900626D79 /* Frameworks */,
+				3A4963E71BD37E6900626D79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GZDSina;
+			productName = GZDSina;
+			productReference = 3A4963E91BD37E6900626D79 /* GZDSina.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A4963E11BD37E6900626D79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GZD;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "高正德";
+				TargetAttributes = {
+					3A4963E81BD37E6900626D79 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = CBV2F22B8N;
+					};
+				};
+			};
+			buildConfigurationList = 3A4963E41BD37E6900626D79 /* Build configuration list for PBXProject "GZDSina" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A4963E01BD37E6900626D79;
+			productRefGroup = 3A4963EA1BD37E6900626D79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A4963E81BD37E6900626D79 /* GZDSina */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A4963E71BD37E6900626D79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A4963FC1BD37E6900626D79 /* LaunchScreen.storyboard in Resources */,
+				3A4963F91BD37E6900626D79 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A4963E51BD37E6900626D79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A49641E1BD383E600626D79 /* GZDDiscoverViewController.m in Sources */,
+				3A4963F11BD37E6900626D79 /* AppDelegate.m in Sources */,
+				3A49642A1BD3841C00626D79 /* GZDMessageViewController.m in Sources */,
+				3A4964341BD39F7C00626D79 /* GZDTwoViewController.m in Sources */,
+				3A4964271BD3840E00626D79 /* GZDMeViewController.m in Sources */,
+				3A4964371BD39FEE00626D79 /* GZDThreeViewController.m in Sources */,
+				3A49642D1BD389C100626D79 /* UIBarButtonItem+Extension.m in Sources */,
+				3A4963EE1BD37E6900626D79 /* main.m in Sources */,
+				3A4964211BD383F100626D79 /* GZDHomeViewController.m in Sources */,
+				3A49643D1BD3C41B00626D79 /* GZDTabBarController.m in Sources */,
+				3A49643A1BD3BBC600626D79 /* GZDNavViewController.m in Sources */,
+				3A4964301BD390A100626D79 /* UITabBarItem+Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A4963FA1BD37E6900626D79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A4963FB1BD37E6900626D79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A4963FE1BD37E6900626D79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A4963FF1BD37E6900626D79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A4964011BD37E6900626D79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GZDSina/GZDSina-Prefix.pch";
+				INFOPLIST_FILE = GZDSina/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GZD.cn-gzd.GZDSina";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3A4964021BD37E6900626D79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GZDSina/GZDSina-Prefix.pch";
+				INFOPLIST_FILE = GZDSina/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GZD.cn-gzd.GZDSina";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A4963E41BD37E6900626D79 /* Build configuration list for PBXProject "GZDSina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A4963FE1BD37E6900626D79 /* Debug */,
+				3A4963FF1BD37E6900626D79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A4964001BD37E6900626D79 /* Build configuration list for PBXNativeTarget "GZDSina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A4964011BD37E6900626D79 /* Debug */,
+				3A4964021BD37E6900626D79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A4963E11BD37E6900626D79 /* Project object */;
+}
